@@ -1,0 +1,83 @@
+/* Fondo con degradado pastel */
+body {
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* Se aplicó un fondo degradado con colores suaves */
+    display: flex; /* Se usa flexbox para centrar el formulario */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Contenedor principal del formulario */
+.form-container {
+    background: #f7f7f7; /* Fondo claro para el formulario */
+    padding: 30px;
+    border-radius: 12px; /* Bordes redondeados */
+    width: 320px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Texto centrado */
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Descripción */
+p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los inputs */
+.input-container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.input-container i {
+    font-size: 18px;
+    color: #888;
+    margin-right: 8px;
+}
+
+input, select {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+}
+
+/* Botón estilizado */
+button {
+    background: #77c4d3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Espaciado entre el icono y el texto */
+}
+
+button i {
+    font-size: 18px; /* Tamaño del icono en el botón */
+}
+
+button:hover {
+    background: #5aa3b0; /* Cambio de color al pasar el mouse */
+}

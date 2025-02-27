@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Mejorado</title>
+    
+  <!-- Enlace a Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+ <!-- Enlace a la hoja de estilos externa -->
+<link rel="stylesheet" href="EstilosFor.css">
+</head>
+<body>
+   <!-- Contenedor principal del formulario con diseño mejorado -->
+    <div class="form-container">
+        <h1>Registro</h1>
+        <p>Ingresa tus datos para continuar</p>
+        
+        <form action="/submit" method="post">
+              <!-- Campo de entrada para el nombre con icono -->
+            <div class="input-container">
+                <i class="bi bi-person"></i>
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+            </div>
+ <!-- Campo de entrada para el correo electrónico con icono -->
+            <div class="input-container">
+                <i class="bi bi-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+            </div>
+ <!-- Campo de selección de ciudad con icono -->
+            <div class="input-container">
+                <i class="bi bi-geo-alt"></i>
+                <select id="city" name="city">
+                    <option value="poo">POO</option>
+                    <option value="ai">IA</option>
+                    <option value="tlaxiaco">TLAXIACO</option>
+                </select>
+            </div>
+ <!-- Botón de envío con icono -->
+            <button type="submit">
+                <i class="bi bi-send"></i> Enviar
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
