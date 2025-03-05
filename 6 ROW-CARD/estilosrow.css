@@ -1,0 +1,58 @@
+button {
+    margin-bottom: 10px; /* Espacio entre botones verticalmente */
+    margin-right: 10px; /* Espacio entre botones horizontalmente */
+}
+
+/* Botón básico 2 */
+.basic-button-b {
+    padding: 10px 20px; /* Agrega un espacio interno: 10px arriba/abajo y 20px a los lados */
+    font-size: 16px; /* Define el tamaño del texto en 16 píxeles */
+    background-color: #24de2a; 
+    color: white; 
+    border: none; 
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
+}
+/* Estilos para el Botón redondeado extremo */
+.extreme-round-button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #9C27B0;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
+}
+/* Estilos para el Botón con ícono */
+.icon-button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #0066ba; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
+    display: flex;
+    align-items: center;
+    }
+    /* Espaciado del ícono dentro del botón con ícono */
+.icon-button i { 
+    margin-right: 25px;
+}
+/* Estilos para el Botón elegante */
+.fancy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2801d5;
+    color: #fff309;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que el botón es interactivo */
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+/* Espaciado del ícono dentro del botón elegante */
+.fancy-button i {
+    margin-right: 25px; /* Espacio a la derecha del ícono */
+}
